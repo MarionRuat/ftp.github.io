@@ -1,0 +1,258 @@
+@font-face{
+font-family: 'Aniron';
+src :url('anicb.ttf') format('truetype');
+
+}
+@font-face{
+	font-family: 'partybusiness';
+	src:url('partybusiness.ttf')format('truetype');
+}
+
+@font-face{
+	font-family: 'tngan';
+src:url('tngan.ttf')format('truetype');
+}
+
+body{
+background-image: url('fond.png');
+background-repeat:repeat;
+font-family: "Aniron";
+	
+}
+
+h2{
+	font-family: 'Aniron';
+	font-size: 2em;
+	padding-bottom: 1.2%;
+}
+
+
+h2:before{
+content:"ij " ;
+font-family: 'tngan';
+font-size:1;
+color: #FF4F00;
+}
+
+h2:after{
+content:" ij" ;
+font-family: 'tngan';
+font-size:1;
+color:#FF4F00;
+}
+
+.navbar-nav>li>a{
+padding-top: 1.5em;
+color:white;
+font-family: Aniron;
+font-size: 20px;
+border:none;
+
+}
+
+
+
+.navbar-nav>li:last-child>a{
+	border-right:none;
+}
+
+span{
+	font-size: 15px;
+}
+
+.fellows 
+{
+	text-align: center;
+	}
+
+.fellows h2{
+	margin-bottom: 30px;
+}
+
+
+
+
+.carousel-caption {
+	top: 30%;
+	font-family: partybusiness;
+	font-size:5em;
+	text-align: center;
+	
+
+}
+
+
+.navbar {
+
+background-color: #FF4F00;
+margin: 0;
+height:auto;
+border-radius: 0}
+
+
+.nav{
+
+font-family: 'Aniron';
+padding-bottom: 20px;
+font-size: 15px
+margin-right:2px;
+
+}
+
+
+
+.nav> li > a:focus, .nav > li > a:hover
+{
+text-decoration: underline white;
+background-color:transparent;
+font-weight: bold;
+
+}
+
+
+a{
+	color:grey;
+	font-size: 20px
+}
+
+	
+.thumbnail{
+    margin-left: auto;
+    margin-right: auto;
+    width: 335px;
+     height: 500px;
+     line-height: 1.42857143;
+    background-color: black;
+    border-radius:0;
+ font-family: "partybusiness"
+}
+
+
+.fellows .nav-pills a:hover{
+color:#FF4F00;
+text-decoration: underline #FF4F00;
+}
+
+.nav-pills .active1:before{
+content:"b ";
+font-family: 'tngan';
+color: #FF4F00;
+}
+
+.nav-pills .active1:after{
+content:" b" ;
+font-family: 'tngan';
+color:#FF4F00;
+}
+
+.ensemble{
+	height: 373px
+}
+
+.ensemble img {
+opacity:0.5;
+height: 373px
+}
+
+.reward{
+
+position: relative;
+border-radius: 15px;
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+font-weight: solid;
+font-size: 1.9em;
+z-index: 2;
+width: 280px;
+height:100px;
+bottom : 450px;
+left: 30px;
+color: black;
+
+}
+
+h3.Gandalf{
+color: white;
+font-size: 3em;
+position: relative;
+bottom : 200px;
+opacity: 0.7;
+left: 25px;
+width: 280px;
+text-align: center;
+}	
+
+.thumbnail a:focus, a:hover{
+text-decoration: none;
+
+}
+
+.ensemble img:hover{
+opacity:1;
+
+}
+
+.ensemble:hover h3{
+font-size: 2em;
+width:30px;
+position: relative;
+left: 100px;
+bottom: 70px;
+
+}
+
+.ensemble:hover .reward{
+	visibility: hidden;
+}
+
+.ensemble .portrait:hover{
+	opacity: 1
+}
+
+.color{
+	color:#FF4F00	;
+	font-size: 1em;
+}
+
+.caption p{
+	font-size:25px;
+	color: grey;
+}
+h3.Gimli{
+color: white;
+font-size: 3em;
+position: relative;
+bottom : 200px;
+opacity: 0.7;
+left: 25px;
+width: 280px;
+text-align: center;
+text-decoration: line-through #FF4F00;}
+
+.rewarddead{
+position: relative;
+border-radius: 15px;
+text-align: center;
+font-weight: solid;
+font-size: 1.9em;
+z-index: 2;
+width: 280px;
+height:100px;
+bottom : 450px;
+left: 30px;
+color: black;
+}
+
+.ensemble:hover .rewarddead{
+	visibility: hidden;
+}
+
+
+.ensemble:hover .Gimli{
+font-size: 2.3em;
+width:30px;
+position: relative;
+left: 140px;
+bottom: 70px;
+
+}
